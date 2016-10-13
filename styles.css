@@ -1,0 +1,61 @@
+body {
+	font-family: Gotham, sans-serif;
+}		
+			#banner img {
+			width: 100%;
+			}
+			#content {
+				width: 90%;
+					max-width: 940px;
+				margin: auto;
+			}
+			
+			#logo{
+				margin-bottom: -99px;
+				box-sizing: border-box;
+			}
+			
+			img {max-width:100%}
+
+			nav {
+				background color: #AA3939; 
+				color: rgb(255, 255, 255);
+				padding: 10px;
+				margin: 5px;
+				line-height: 35px;
+			}
+		nav li{
+			display: inline-block; 
+			padding-left: 10px;
+		}
+		nav li a{
+			display: block;
+		}
+		nav a: link, nav a:visited{
+			color: rgb(46, 156, 156); 
+		}
+		nav a:hover{
+			background-color: rgb(78, 186, 186);
+			color: rgb(255, 255, 255);
+		}
+		a {
+			text-decoration: none;
+		}
+			#top-row, #middle-row {
+					display: flex;
+			}
+			.leftcol {
+				width: 48%;
+				flex: 1 0 15em;
+			}
+			.rightcol	{
+				width: 48%;
+				flex: 1 0 15em;
+			}
+			#top-row {
+				background-color: rgb(49, 57, 117);
+				color: rgb(255, 255, 255);
+				padding: 10px;
+			}
+
+

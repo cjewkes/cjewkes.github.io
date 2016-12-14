@@ -1,0 +1,82 @@
+body {
+	font-family: Gotham, sans-serif;
+}		
+			#banner img {
+			width: 100%;
+			}
+			#content {
+				width: 90%;
+					max-width: 940px;
+				margin: auto;
+			}
+            #slideshow {
+                position: relative;
+            }
+
+			#logo{
+				margin-bottom: -14%;
+				box-sizing: border-box;
+			}
+
+        .call-to-action {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+    
+            }
+            #bottom {	text-align: center;
+				width: 70%
+					margin: 0 auto;
+                }
+			img {max-width:100%}
+
+			nav {
+				background color: #AA3939; 
+				color: rgb(255, 255, 255);
+				padding: 0px;
+				margin: 5px;
+				line-height: 35px;
+                text-align: center; 
+			}
+		nav li{
+			display: inline-block; 
+			padding-left: 10px;
+		}
+		nav li a{
+			display: block;
+		}
+		nav a: link, nav a:visited{
+			color: rgb(46, 156, 156); 
+		}
+		nav a:hover{
+			background-color: rgb(85, 0, 0);
+			color: rgb(255, 255, 255);
+		}
+		a {
+			text-decoration: none;
+		}
+			.leftcol {
+				width: 48%;
+				flex: 1 0 15em;
+			}
+			.rightcol	{
+				width: 48%;
+				flex: 1 0 15em;
+			}
+            #location {
+                text-align: center;
+                }
+            #where {
+                text-align: center;
+            }
+            #facebook {
+                text-align: center;
+                padding: 2px;
+            }
+            #insta {
+                text-align: center;
+                padding: 2px;
+            }
+            h2 {    
+                text-decoration: underline;
+                }

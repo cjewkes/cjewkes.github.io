@@ -1,19 +1,28 @@
 body {
 	font-family: Gotham, sans-serif;
 }		
-			#banner img {
-			width: 100%;
-			}
+
 			#content {
 				width: 90%;
 					max-width: 940px;
 				margin: auto;
 			}
-			
+            #slideshow {
+                position: relative;
+            }
+
 			#logo{
-				margin-bottom: -99px;
+				margin-bottom: -14%;
+                margin-left: auto;
 				box-sizing: border-box;
 			}
+
+        .call-to-action {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+    
+            }
             #bottom {	text-align: center;
 				width: 60%
 					margin: 0 auto;
@@ -23,7 +32,7 @@ body {
 			nav {
 				background color: #AA3939; 
 				color: rgb(255, 255, 255);
-				padding: 10px;
+				padding: 0px;
 				margin: 5px;
 				line-height: 35px;
                 text-align: center; 
@@ -36,17 +45,20 @@ body {
 			display: block;
 		}
 		nav a: link, nav a:visited{
-			color: rgb(46, 156, 156); 
+			color: rgb(85, 0, 0); 
 		}
 		nav a:hover{
-			background-color: rgb(78, 186, 186);
+			background-color: rgb(85, 0, 0);
 			color: rgb(255, 255, 255);
 		}
 		a {
 			text-decoration: none;
 		}
-			#top-row, #middle-row {
+			#top-row {
 					display: flex;
+                    text-align: center;
+                    padding: 10px;
+                    margin-bottom: 10px;
 			}
 			.leftcol {
 				width: 48%;
